@@ -2,7 +2,7 @@
 
 ## WSDL Schema
 
-![WSDL Schema](./ressources/wsdl.png)
+![WSDL Schema](./ressources/wsdl1.png)
 
 ## XML Schema Definition
 
