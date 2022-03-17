@@ -6,5 +6,8 @@
 
 ## XML Schema Definition
 
-
 ![XML Schema Definition](./ressources/xsd.png)
+
+## Testing SOAP web service with SoapUI tool
+
+### Create new project
