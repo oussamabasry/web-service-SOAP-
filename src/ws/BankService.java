@@ -11,7 +11,7 @@ import java.util.List;
 public class BankService {
     @WebMethod(operationName = "conversionDHToEuro")
     public double conversion(@WebParam(name = "amount") double amount){
-        return amount * 11;
+        return amount / 11;
     }
 
     public Account getAccount(@WebParam(name = "accountId") Long id){

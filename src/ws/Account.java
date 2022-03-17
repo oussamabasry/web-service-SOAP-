@@ -1,9 +1,14 @@
 package ws;
 
+import javax.xml.bind.annotation.*;
 import java.util.Date;
 
+@XmlRootElement(name = "account")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Account {
+    @XmlAttribute
     private Long id;
+    @XmlElement
     private double balance;
     private Date creationDate;
     private boolean active;
